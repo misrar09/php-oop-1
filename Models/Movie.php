@@ -1,4 +1,4 @@
-<!-- Creating a movie class -->
+<!-- Creating a movie class with contrust and method -->
 
 <?php
 
@@ -10,8 +10,6 @@ class Movie
     public $language;
     public $cast;
     public $rating;
-
-
 
 
     public function __construct($name, $year, $genere, $language, $cast, $rating)
